@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+import SignUp from "./pages/Signup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProtectRoute from "./hooks/protectRoute";
 import Layout from "./components/Layout";
 import "react-toastify/dist/ReactToastify.css";
 import NotFound from "./pages/NotFound";
-import SignUp from "./pages/signup";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
 function App() {
