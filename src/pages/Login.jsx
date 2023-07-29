@@ -87,7 +87,7 @@ export default function Login() {
       <div className="login">
         <div className="container">
           <div className="image">
-            <img src="/public/login.avif"></img>
+            <img src="/login.avif"></img>
           </div>
           <div className="content">
             <div className="main-heading">
