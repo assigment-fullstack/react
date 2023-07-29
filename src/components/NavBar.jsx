@@ -25,7 +25,7 @@ function NavBar() {
           </Link>
         </div>
         <div className="flex-none gap-2">
-          <span className="text-white font-bold text-lg">{user.userName}</span>
+          <span className="text-white font-bold text-lg">{user?.userName}</span>
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">

@@ -6,8 +6,8 @@ import ProtectRoute from "./hooks/protectRoute";
 import Layout from "./components/Layout";
 import "react-toastify/dist/ReactToastify.css";
 import NotFound from "./pages/NotFound";
-import { GoogleOAuthProvider } from "@react-oauth/google";
 import SignUp from "./pages/signup";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 function App() {
   return (

@@ -4,7 +4,6 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
 import { ThreeDots } from "react-loader-spinner";
-import { GoogleLogin } from "@react-oauth/google";
 
 export default function SignUp() {
   const navigate = useNavigate();
